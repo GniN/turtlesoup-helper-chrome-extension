@@ -2,7 +2,7 @@
   "name": "turtle-chrome-helper",
   "description": "默契遊戲統計工具",
   "version": "1.0.2",
-  "manifest_version": 3,
+  "manifest_version": 2,
   "permissions": [
     "declarativeContent",
     "activeTab"
