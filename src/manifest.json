@@ -1,0 +1,27 @@
+{
+  "name": "turtle-chrome-helper",
+  "description": "默契遊戲統計工具",
+  "version": "1.0.2",
+  "manifest_version": 3,
+  "permissions": [
+    "declarativeContent",
+    "activeTab"
+  ],
+  "icons": {
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "page_action": {
+    "default_title": "turtle-chrome-helper3",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "chrome_style": true
+  }
+}
