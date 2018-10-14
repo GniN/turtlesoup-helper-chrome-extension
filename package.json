@@ -1,6 +1,6 @@
 {
-  "name": "turtle-chrome-helper",
-  "version": "1.0.3",
+  "name": "turtlesoupHelper",
+  "version": "1.0.4",
   "description": "turtle helper chrome extension",
   "author": "Gnin",
   "scripts": {

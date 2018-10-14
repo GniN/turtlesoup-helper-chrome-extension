@@ -1,7 +1,6 @@
 {
-  "name": "turtle-chrome-helper",
+  "name": "默契遊戲統計小幫手",
   "description": "默契遊戲統計工具",
-  "version": "1.0.2",
   "manifest_version": 2,
   "permissions": [
     "declarativeContent",
@@ -12,7 +11,7 @@
     "128": "icons/icon_128.png"
   },
   "page_action": {
-    "default_title": "turtle-chrome-helper3",
+    "default_title": "默契遊戲統計小幫手",
     "default_popup": "popup/popup.html"
   },
   "background": {

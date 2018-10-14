@@ -75,7 +75,8 @@ export default {
         { text: "玩家", value: "players" }
       ],
       roundResultPagination: {
-        sortBy: "round"
+        sortBy: "round",
+        descending: true
       },
       roundsPlayerScore: {}, //分數總計
       resultData: [],
@@ -194,7 +195,7 @@ export default {
               })
             }
           }
-          this.activeTab = 2
+          this.activeTab = 1
         }
       )
     }
