@@ -135,7 +135,6 @@ export default {
               if (push.author === author && push.content.includes(this.endText)) {
                 mode = "chat";
                 rounds.push(pushesInRound);
-              } else if (push.author === author) {
               } else {
                 pushesInRound.push(push);
               }
@@ -149,7 +148,7 @@ export default {
             let players = [];
             let roundPlayerScore = {};
             round.forEach(push => {
-              if (push.author !== author && !players.includes(push.author)) {
+              if (!players.includes(push.author)) {
                 // replacing : and spaces
                 let content = push.content.replace(":", "").replace(" ", "");
                 if (!roundAnswerCount.hasOwnProperty(content)) {
