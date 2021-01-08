@@ -1,6 +1,6 @@
 {
-  "name": "默契遊戲統計小幫手",
-  "description": "默契遊戲統計工具",
+  "name": "海龜板遊戲統計小幫手",
+  "description": "海龜板遊戲統計工具",
   "manifest_version": 2,
   "permissions": [
     "declarativeContent",
@@ -11,7 +11,7 @@
     "128": "icons/icon_128.png"
   },
   "page_action": {
-    "default_title": "默契遊戲統計小幫手",
+    "default_title": "海龜板遊戲統計小幫手",
     "default_popup": "popup/popup.html"
   },
   "background": {
